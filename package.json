@@ -4,7 +4,8 @@
   "description": "sui moveで作るTwitterアプリを構成する最小限のソースコードをまとめてリポジトリです。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "contract:build": "npm run -w pkgs/contract build",
+    "contract:deploy": "npm run -w pkgs/contract deploy"
   },
   "keywords": [],
   "author": "",

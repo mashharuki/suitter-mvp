@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sui move build",
+    "deploy": "sui client publish --gas-budget=123456789 --skip-dependency-verification"
   },
   "author": "",
   "license": "MIT"
