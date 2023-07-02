@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "contract:build": "npm run -w pkgs/contract build",
-    "contract:deploy": "npm run -w pkgs/contract deploy"
+    "contract:deploy": "npm run -w pkgs/contract deploy",
+    "frontend:build": "npm run -w pkgs/frontend build",
+    "frontend:dev": "npm run -w pkgs/frontend dev"
   },
   "keywords": [],
   "author": "",
